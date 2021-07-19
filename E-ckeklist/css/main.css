@@ -1,0 +1,13 @@
+li a:hover {
+	text-decoration: line-through;
+}
+
+a {
+	color: #212121;
+	display: block;
+	text-decoration: none;
+}
+
+#lista{
+	font-size: 20px!important;
+}

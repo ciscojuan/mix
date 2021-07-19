@@ -1,0 +1,24 @@
+
+
+a {
+	color: #212121;
+	display: block;
+	text-decoration: none;
+}
+
+.list-group-item{
+	font-size: 1.5rem;
+}
+
+#mosquera>li:hover,.mosquera:hover{
+	background-color: #ffc107;
+}
+
+#acapulco>li:hover, .acapulco:hover{
+	background-color: #007bff;
+}
+
+/* #done>li:hover{
+	background-color: #28a745;
+}
+ */

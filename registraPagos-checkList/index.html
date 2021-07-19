@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1;" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="js/jqueryUI/jquery-ui.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/pagos.png" />
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/jqueryUI/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>RegistraPagos</title>
+</head>
+
+<body class="bg-dark hv-100">
+    <div class=" container bg-light">
+        <div class="relog d-flex justify-content-center">
+
+        </div>
+        <!-- header -->
+        <div class="container bg-danger text-center my-5 text-white ">
+            <div class="container-title py-3 mx-2">
+                <h2 class="text-center  mb-3" id="title">RegistraPagos!</h2>
+                <h4>LLeve rastro de cuales recibos ha pagado u cuales estan por pagarce!</h4>
+                <img src="img/pagos.png" alt="" style="max-width: 200px;">
+                <h1 id="hora" style="font-family: ubuntu; font-size: 40px;" class="my-2 "></h1>
+            </div>
+        </div>
+        <hr>
+        <!-- body -->
+        <section class="container-fluid ">
+            <div class="row" id="lista">
+                <div class="col-sm-12 col-md-4">
+                    <div class=" container categoria bg-warning p-3">
+                        <h3 class="text-center text-uppercase text-white">MOSQUERA</h3>
+                    </div>
+                    <hr>
+                    <ul class="list-group" id="mosquera">
+                        <li class="mosquera list-group-item d-flex justify-content-between align-items-center">
+                            GAS - 7091578
+                            <span class="badge badge-danger badge-pill" >Check</span>
+                        </li>
+                        <li title="Pago programado 25 del mes" class="mosquera list-group-item d-flex justify-content-between align-items-center">
+                            AGUA - 0038020
+                            <span class="badge badge-danger badge-pill">Check</span>
+                        </li>
+                        <li class="mosquera list-group-item d-flex justify-content-between align-items-center">
+                            ENERGIA - 66160208
+                            <span class="badge badge-danger badge-pill">Check</span>
+                        </li>
+                        <li class="mosquera list-group-item d-flex justify-content-between align-items-center">
+                            CLARO - 73864467
+                            <span class="badge badge-danger badge-pill">Check</span>
+                        </li>
+                        <li class="mosquera list-group-item d-flex justify-content-between align-items-center">
+                            ADMINISTRACION
+                            <span class="badge badge-danger badge-pill">Check</span>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class=" container categoria bg-primary p-3">
+                        <h3 class="text-center text-uppercase text-white">Acapulco</h3>
+                    </div>
+                    <hr>
+                    <ul class="list-group" id="acapulco">
+                        <li class="acapulco list-group-item d-flex justify-content-between align-items-center">
+                            GAS - 652659
+                            <span class="badge badge-danger badge-pill">Check</span>
+                        </li>
+                        <li class="acapulco list-group-item d-flex justify-content-between align-items-center">
+                            AGUA - 10337773
+                            <span class="badge badge-danger badge-pill">Check</span>
+                        </li>
+                        <li class="acapulco list-group-item d-flex justify-content-between align-items-center" title="Pagar desde el dia 20">
+                            ENERGIA - 05606318
+                            <span class="badge badge-danger badge-pill">Check</span>
+                        </li>
+                        <li class="acapulco list-group-item d-flex justify-content-between align-items-center">
+                            ETB - 1434770
+                            <span class="badge badge-danger badge-pill">Check</span>
+                        </li>
+                        <li class="acapulco list-group-item d-flex justify-content-between align-items-center">
+                            MOVISTAR - 3154704298
+                            <span class="badge badge-danger badge-pill">Check</span>
+                        </li>
+                        <li class="acapulco list-group-item d-flex justify-content-between align-items-center">
+                            ADMINISTRACION
+
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class=" container categoria bg-success p-3">
+                        <h3 class="text-center text-uppercase text-white">PAGADO</h3>
+                    </div>
+                    <hr>
+                    <ul class="list-group" id="done">
+
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
