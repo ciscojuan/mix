@@ -1,0 +1,19 @@
+<app-slider 
+[nombre]="'Articulo buscado : ' + search"
+[size]="'small'">
+</app-slider>
+
+<div class="center">
+    <section id="content">
+        <hr>
+        <h2 class="subclass" >Articulos Encontrados</h2>
+        <hr>
+       
+        <app-articles
+        [articles]="articles">
+            
+        </app-articles>
+    </section>
+
+</div>
+    <app-sidebar></app-sidebar>

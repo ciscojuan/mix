@@ -1,0 +1,20 @@
+<app-slider 
+[nombre]="'Blog'"
+[size]="'small'">
+</app-slider>
+
+<div class="center">
+    <section id="content">
+        <h2 class="subclass">{{title}}</h2>
+        <hr>
+        <div *ngIf="peliculas.length > 0">
+            <h3>Numero de peliculas: {{peliculas.length}}</h3>
+        </div>
+        <hr>
+        <h2>Listado de Peliculas</h2>
+        <app-articles
+        [articles]="articles"></app-articles>
+    </section>
+
+</div>
+    <app-sidebar></app-sidebar>
